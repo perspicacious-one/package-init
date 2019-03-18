@@ -2,9 +2,7 @@
 
 const move = require('../lib/move');
 const inquirer = require('inquirer');
-const execSync = require('child_process').execSync;
 
-execSync('npm init');
 
 inquirer
   .prompt([
