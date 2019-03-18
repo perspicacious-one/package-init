@@ -21,3 +21,8 @@ npm install -g ./
 
 Done! Now when you want to start a new project, type `project-init` in the new project directory and follow the prompts.
 
+## Extend & Customize
+
+You can add, remove, or change any of the files to suit your needs. Files in the `/lib/common` directory will be placed in every project.
+
+If you want more project options simply create a project type folder (e.g. - 'vue') in the `/lib` directory, then place the files you want to be populated in the new folder.
